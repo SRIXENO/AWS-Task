@@ -1,0 +1,31 @@
+
+Amazon S3 Pricing Models and Hosting a Static Website
+=====================================================
+
+Part 1: S3 Pricing Models
+-------------------------
+
+1. Standard Storage Class
+- Use Case: Frequently accessed data
+- Features: High durability, availability, and low latency
+- Example: Website files (HTML, CSS, images)
+
+2. Intelligent-Tiering
+- Use Case: Unknown or changing access patterns
+- Features: Moves data between tiers automatically to save cost
+- Example: User-generated content
+
+3. Standard-IA (Infrequent Access)
+- Use Case: Infrequently accessed but quickly retrievable data
+- Features: Lower cost than Standard, slightly higher retrieval cost
+- Example: Backup or disaster recovery data
+
+4. One Zone-IA
+- Use Case: Infrequent data stored in a single zone
+- Features: Cheaper but less redundant
+- Example: Re-creatable backup data
+
+5. Glacier / Glacier Deep Archive
+- Use Case: Archival and long-term storage
+- Features: Lowest cost, hours for retrieval
+- Example: Compliance or regulatory archives

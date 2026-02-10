@@ -1,0 +1,69 @@
+
+AWS EC2 Instance Types and Pricing Models
+=========================================
+
+1. EC2 Instance Families
+------------------------
+
+General Purpose:
+- Balanced compute, memory, and networking.
+- Examples: t4g, t3, t2, m6, m5, m4
+
+Compute Optimized:
+- Best for compute-intensive applications.
+- Examples: c7, c6, c5, c4
+
+Memory Optimized:
+- High memory for in-memory databases, caching.
+- Examples: r7, r6, r5, x2, z1d
+
+Storage Optimized:
+- High-speed local storage with low latency.
+- Examples: i4, i3, d3, h1
+
+Accelerated Computing:
+- GPU or FPGA for ML, AI, graphics, and HPC.
+- Examples: p5, p4, g5, g4, f1, inf2
+
+Use Case Examples:
+- Web server: t3.micro
+- Machine learning training: p4d.24xlarge
+- Big data analytics: r6i.4xlarge
+
+2. EC2 Pricing Models
+---------------------
+
+On-Demand:
+- Pay-as-you-go with no long-term commitment.
+- Best for short-term and unpredictable workloads.
+
+Reserved Instances:
+- Commit to 1 or 3 years for a discounted rate.
+- Ideal for long-term stable workloads (e.g., databases).
+
+Savings Plans:
+- Flexible discount model by committing usage.
+- More flexible than Reserved Instances.
+
+Spot Instances:
+- Use spare AWS capacity at up to 90% discount.
+- Best for batch jobs, ML training, or interruptible workloads.
+
+Dedicated Hosts:
+- Physical server dedicated to you.
+- Good for compliance and licensing needs.
+
+Free Tier:
+- 750 hours per month for t2.micro or t3.micro free for 12 months.
+
+3. Instance Recommendations by Use Case
+---------------------------------------
+
+- Learning / Testing: t2.micro, t3.micro (Free Tier)
+- Web App / API Hosting: t3.medium, m5.large
+- Databases: r6g.large, r5.large
+- Machine Learning Inference: g5.xlarge, inf2.xlarge
+- Machine Learning Training: p4d.24xlarge, p5.48xlarge
+- Video Rendering / Gaming: g4dn.xlarge, g5.2xlarge
+- HPC (High Performance Computing): c6gn, hpc6id, f1
+- Data Warehouse Storage: i4i, d3en

@@ -1,0 +1,42 @@
+TASK 1:
+DATE:30.7.25
+what are all the service provided by aws? and define each service with example 
+TASK 2:
+DATE:31.7.25
+what are all the available instance familes and instance pricing models and which instance type serves what purpose prepare a proper document 
+TASK 3:
+DATE:2.8.25
+do a file transfer between two servers ,servers can be either local to remote or ec2 instance to ec2 instance ,using scp commands
+TASK 4:
+launch an ec2 instance in any desired availability zone and monitor the ec2 instance using cloud watch and take the ss of cpu utilization storage reacted dash boards and upload it.
+TASK 5:
+DATE:4.8.25
+what are all the different pricing models in s3 and launch a static website using s3 and make it publicly available 
+TASK 6:
+DATE:4.8.25
+upload multiple files to s3 buckets from aws cli using single command(sync upload, download, mb, rb, permanently delete files empty the bucket
+TASK 7:
+1.Create a VPC, with the ip range 10.0.0.0/16
+2. Create a Public subnet with range 10.0.1.0/24 (any AZ region)
+3. Launch an EC2 instance in this public subnet region 
+4. Select AMI as Amazon Linux instance in the specified subnet
+5. Install a webserver (httpd) and deploy hello world application and make the application production ready
+TASK 8:
+I have my EC2 instance which is configured with nginx web server. As the application was used by many customers, my application should be highly available. Customers will be high during the night 8:00 PM, and it slows down by morning 8:00 Am, so I need my Ec2 instance to be highly available during this times. So Create Appropriate Auto Scaling and Load balancing for maintaining the servers during this time hours. And finally attach this autoscaling groups to Application Load balancer to have equal traffic distribution.
+TASK 9:
+1.create four IAM users 
+prod user-ec2 full access
+dev user -s3 read only access
+test user-ec2 full access
+s3 full access
+uat user- ec2 read only access
+s3 read only access
+lambda read only access
+2.create four groups 
+prod group
+dev group
+test group
+uat group 
+add the users to the appropriate groups
+
+
