@@ -1,4 +1,4 @@
-# 🌩️ AWS Practical Implementation Tasks
+# AWS Practical Implementation Tasks
 
 ## 📌 Overview
 
@@ -19,13 +19,11 @@ Screenshots and documentation are included as proof of implementation.
 
 ------------------------------------------------------------------------
 
-# 🚀 Task Implementations
+# Task Implementations
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 1 -- AWS Services Overview
-
-**Date:** 30-07-2025
+## TASK 1 -- AWS Services Overview
 
 ### Objective
 
@@ -74,9 +72,7 @@ examples.
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 2 -- EC2 Instance Families & Pricing Models
-
-**Date:** 31-07-2025
+## TASK 2 -- EC2 Instance Families & Pricing Models
 
 ### Objective
 
@@ -101,9 +97,7 @@ Understand EC2 instance types and pricing models.
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 3 -- File Transfer Using SCP
-
-**Date:** 02-08-2025
+## TASK 3 -- File Transfer Using SCP
 
 ### Objective
 
@@ -123,7 +117,7 @@ scp ec2-user@server1:/file ec2-user@server2:/destination
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 4 -- EC2 Monitoring Using CloudWatch
+## TASK 4 -- EC2 Monitoring Using CloudWatch
 
 ### Objective
 
@@ -142,9 +136,7 @@ Launch EC2 instance and monitor system performance.
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 5 -- S3 Pricing Models & Static Website Hosting
-
-**Date:** 04-08-2025
+## TASK 5 -- S3 Pricing Models & Static Website Hosting
 
 ### Objective
 
@@ -166,9 +158,7 @@ Understand S3 pricing and deploy a static website.
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 6 -- AWS CLI S3 Operations
-
-**Date:** 04-08-2025
+## TASK 6 -- AWS CLI S3 Operations
 
 ### Objective
 
@@ -186,7 +176,7 @@ aws s3 rb s3://bucket-name
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 7 -- VPC & Web Server Deployment
+## TASK 7 -- VPC & Web Server Deployment
 
 ### Objective
 
@@ -204,7 +194,7 @@ Create custom network infrastructure and deploy web application.
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 8 -- Auto Scaling & Load Balancing
+## TASK 8 -- Auto Scaling & Load Balancing
 
 ### Objective
 
@@ -225,7 +215,7 @@ Ensure high availability during peak traffic hours (8 PM -- 8 AM).
 
 ------------------------------------------------------------------------
 
-## ✅ TASK 9 -- IAM User & Group Management
+## TASK 9 -- IAM User & Group Management
 
 ### Objective
 
